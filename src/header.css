@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+
+.header-left{
+    margin-left: 20px;
+
+}
+
+.header-logo{
+    width: 90px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.header-right{
+    /* position: absolute; */
+    display: flex;
+    width: 170px;
+    align-items: center;
+    justify-content: space-between;
+    right: 3%;
+    margin-right: 20px;
+}
+
+.header-avatar{
+    margin-left: 10px;
+}
+
+.header-icon{
+    color: rgb(34, 32, 32);
+}
+
+.header-icon:hover{
+    color: rgb(221, 9, 9);
+    font-size: 30px !important;
+    transition: all 0.3s;
+}
+
+
+.header-middle{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 3px;
+    height: 25px;
+}
+
+.header-middle > input {
+    flex: 1;
+    border: none;
+    padding-left: 15px;
+}
+
+.header-middle > input:focus{
+    outline: none;
+}
+
+.header-middle > input::placeholder{
+    letter-spacing: 0.1rem;
+    font-weight: 200;
+}
+
+
+
+.header-input-icon{
+    width: 60px !important;
+    background-color: #fafafa;
+    border-left: 1px solid rgb(148, 147, 147);
+    color: gray;
+}
