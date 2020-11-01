@@ -8,6 +8,7 @@
     top: 0;
     z-index: 100;
     background-color: white;
+    border-bottom: 1px solid lightgray;
 }
 
 
@@ -74,7 +75,7 @@
 
 
 .header-input-icon{
-    width: 60px !important;
+    width: 12% !important;
     background-color: #fafafa;
     border-left: 1px solid rgb(148, 147, 147);
     color: gray;

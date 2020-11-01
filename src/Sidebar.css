@@ -1,0 +1,41 @@
+.sidebar{
+    flex: 0.2;
+    background-color: white;
+    
+}
+
+
+
+.sidebar > hr{
+    height: 0.9px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.sidebar-creator{
+    width: 85%;
+    margin: auto;
+    color: rgb(78, 75, 75);
+}
+
+.sidebar-creator h4{
+    margin-left: 1px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sidebar-avatar{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sidebar-avatar h5{
+    margin-left: 10px;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+}

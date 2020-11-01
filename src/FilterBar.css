@@ -1,0 +1,30 @@
+.FilterBar{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+    padding-right: 40px;
+    font-weight: 400;
+    
+}
+
+
+.FilterBar ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.FilterBar li{
+    font-size: 13.8px;
+    list-style: none;
+    border: 1px solid lightgray;
+    padding: 1px 12px;
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px;
+}
+
+.FilterBar ul .main{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    font-weight: 500;
+}

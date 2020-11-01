@@ -12,7 +12,7 @@ function Header() {
     <div className="header">
         <div className="header-left">
             <MenuIcon style={{ fontSize: 28 }} className="header-icon"/>
-            <img src="./logo.png" className="header-logo"  />
+            <img src="./logo.jpg" className="header-logo"  />
 
         </div>
 

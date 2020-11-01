@@ -1,0 +1,37 @@
+.Cover{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.cover-text{
+    padding: 5px 20px;
+}
+
+.cover-text h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+}
+
+.cover-text h4{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    margin-top: 15px;
+
+}
+
+.cover-text p{
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 0.01rem;
+}
+
+.cover-image{
+    width: 55%;
+}
