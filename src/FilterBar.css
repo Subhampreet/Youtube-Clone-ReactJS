@@ -21,10 +21,19 @@
     padding: 1px 12px;
     background-color: rgb(243, 241, 241);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .FilterBar ul .main{
     color: white;
     background-color: rgb(43, 41, 41);
     font-weight: 500;
+    cursor: pointer;
+}
+
+
+.FilterBar li:hover{
+    background-color: rgb(216, 215, 215);
+    font-weight: 500;
+    cursor: pointer;
 }

@@ -1,25 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import VideocamIcon from "@material-ui/icons/Videocam";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Avatar } from "@material-ui/core";
-import SearchIcon from '@material-ui/icons/Search';
+import SearchIcon from "@material-ui/icons/Search";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const [inputSearch, setInputSearch] = useState("");
+
   return (
     <div className="header">
-        <div className="header-left">
-            <MenuIcon style={{ fontSize: 28 }} className="header-icon"/>
-            <img src="./logo.jpg" className="header-logo"  />
+      <div className="header-left">
+        <MenuIcon style={{ fontSize: 28 }} className="header-icon" />
 
-        </div>
+        <Link to="/">
+          <img src="./logo.jpg" className="header-logo" />
+        </Link>
+      </div>
 
-        <div className="header-middle">
-            <input type="text" placeholder="Search" />
-            <SearchIcon className="header-input-icon" />
-        </div>
+      <div className="header-middle">
+        <input
+          onChange={(e) => setInputSearch(e.target.value)}
+          value={inputSearch}
+          type="text"
+          placeholder="Search"
+        />
+
+        <Link to={`/search/${inputSearch}`} className="header-input-icon">
+          <SearchIcon className="search-icon" />
+        </Link>
+      </div>
 
       <div className="header-right">
         <VideocamIcon style={{ fontSize: 28 }} className="header-icon" />

@@ -51,7 +51,7 @@
 .header-middle{
     display: flex;
     align-items: center;
-    width: 35%;
+    width: 32%;
     border: 1px solid rgb(153, 153, 153);
     border-radius: 3px;
     height: 25px;
@@ -75,8 +75,18 @@
 
 
 .header-input-icon{
-    width: 12% !important;
+    width: 11% !important;
     background-color: #fafafa;
-    border-left: 1px solid rgb(148, 147, 147);
+    border: 1px solid rgb(148, 147, 147);
+    border-right: none;
     color: gray;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 2px ;
+}
+
+.search-icon{
+    font-size: 20px !important;
+    margin-left: 13px;
 }

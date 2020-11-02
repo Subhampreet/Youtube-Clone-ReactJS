@@ -27,11 +27,20 @@
     font-weight: 500;
 }
 
+.sidebar-creator p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+    /* letter-spacing: 0.02rem; */
+}
+
 .sidebar-avatar{
     margin-top: 12px;
     display: flex;
     align-items: center;
-    
+    /* margin: auto; */
+    margin-left: 5%;    
 }
 
 .sidebar-avatar h5{
