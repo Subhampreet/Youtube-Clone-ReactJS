@@ -19,7 +19,7 @@ function RecommendedVideos() {
           title="Game of Thrones~Every dragon scene~Seasons 1-8"
           views="1.9M views"
           timestamp="1 year ago"
-          image="https://d.newsweek.com/en/full/648050/drogon-spoils-war.jpg?w=1600&h=900&q=88&f=c08bcfe69c8649468db32c23c2c480fc"
+          image="https://pome-mag.com/wp-content/uploads/2017/09/game-of-thrones-season-7-episode-4-the-spoils-of-war-35.jpg"
           channelImage="https://images-na.ssl-images-amazon.com/images/I/91KwasehsHL._RI_.jpg"
           channel="Game Of Thrones"
         />
