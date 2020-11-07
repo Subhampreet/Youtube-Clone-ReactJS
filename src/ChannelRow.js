@@ -1,8 +1,9 @@
-import { Avatar } from "@material-ui/core";
+import { Avatar, Button } from "@material-ui/core";
 import React from "react";
 import "./ChannelRow.css";
 // import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 
 function ChannelRow({
   image,
@@ -24,6 +25,8 @@ function ChannelRow({
         </p>
         <p>{description}</p>
       </div>
+      <Button variant="contained" className="subs-button">SUBSCRIBE</Button>
+      <NotificationsNoneIcon className="bellIcon" />
     </div>
   );
 }

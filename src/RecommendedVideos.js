@@ -3,6 +3,7 @@ import "./recommended.css";
 import VideoCard from "./VideoCard";
 import FilterBar from "./FilterBar";
 import Cover from './Cover';
+import News from './News';
 
 
 function RecommendedVideos() {
@@ -81,6 +82,10 @@ function RecommendedVideos() {
           channel="Netflix India"
         />
       </div>
+
+      <hr />
+      <h2>Latest YouTube News</h2>
+      <News />
     </div>
   );
 }

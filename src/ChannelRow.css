@@ -1,13 +1,16 @@
 .channelRow{
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     margin: auto;
+    justify-content: space-between;
 }
 
 .channelRow_text{
     display: flex;
     flex-direction: column;
+    width: 55%;
+    
 }
 
 
@@ -20,14 +23,12 @@
 
 
 .channelRow_text  h4{
-    width: 90%;
     font-size: 17px;
     font-weight: 470;
     display: flex;
     align-items: center;
     color: #353333;
     margin-bottom: 8px;
-    justify-content: space-between;
 }
 
 .checkIcon{
@@ -39,7 +40,20 @@
 .channelRow_logo {
     height: 120px !important;
     width: 120px !important;
-    margin: 10px 60px;
+    margin: 10px 30px;
+}
+
+
+.subs-button{
+    box-shadow: none !important;
+    font-size: 12.5px !important;
+    font-weight: 600 !important;
+    color: #575656 !important;
+}
+
+.bellIcon{
+    color: #6b6969 !important;
+    font-size: 22.3px !important;
 }
 
 

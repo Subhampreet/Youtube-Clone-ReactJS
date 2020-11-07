@@ -27,3 +27,13 @@
     /* padding-right: 30px; */
 
 }
+
+
+.recommended hr{
+    width: 95%;
+    margin: auto;
+    height: 0.9px;
+    border: 0;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}

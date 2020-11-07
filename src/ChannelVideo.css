@@ -1,0 +1,72 @@
+.ChannelVideo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.channelVideo_text{
+    width: 60%;
+    margin-left: 30px;
+
+}
+
+.video_logo{
+    display: flex;
+    align-items: center;
+    width: 95px;
+    justify-content: space-between;
+}
+
+.video_logo .checkIcon{
+    font-size: 12px !important;
+}
+
+
+.videoRow_logo {
+    height: 25px !important;
+    width: 25px !important;
+    /* margin: 10px 30px; */
+    margin-bottom: -5px;
+}
+
+.video_logo > h6{
+    color: rgb(53, 51, 51);
+    font-weight: 400 !important;
+    font-size: 13.8px;
+}
+
+.channelVideo_text h5{
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.channelVideo_text h4{
+    font-size: 16.5px;
+    font-weight: 400;
+    margin-bottom: -10px;
+    letter-spacing: 0.01rem;
+}
+ 
+
+
+.video_image{
+    width: 340px;
+}
+
+
+.channelVideo_text p{
+    font-size: 13px;
+    margin-top: 12px;
+    color: rgb(56, 55, 55);
+}
+
+.new{
+    box-shadow: none !important;
+    text-transform: none !important;
+    font-size: 11px !important;
+    padding: 1px !important;
+    margin-top: 10px !important;
+}
